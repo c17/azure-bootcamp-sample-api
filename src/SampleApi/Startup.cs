@@ -20,6 +20,9 @@ namespace SampleApi
         public void ConfigureServices(IServiceCollection services)
         {
             services
+                .AddHealthChecks();
+
+            services
                 .AddWebApis()
                 .AddSwagger(this.configuration);
         }
@@ -39,6 +42,7 @@ namespace SampleApi
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHealthChecks("/health");
                 endpoints.MapControllers();
                 endpoints.MapGet("/", context =>
                 {
