@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup Label="Swashbuckle Package Versions">
+    <SwashbuckleAspNetCorePackageVersion>5.6.3</SwashbuckleAspNetCorePackageVersion>
+    <SwashbuckleAspNetCoreFiltersPackageVersion>6.0.1</SwashbuckleAspNetCoreFiltersPackageVersion>
+  </PropertyGroup>
+</Project>

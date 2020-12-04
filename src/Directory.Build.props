@@ -1,0 +1,6 @@
+<Project>
+  <Import Project="../_props/dependencies.props" />
+  <PropertyGroup>
+    <IsTestProject>false</IsTestProject>
+  </PropertyGroup>
+</Project>

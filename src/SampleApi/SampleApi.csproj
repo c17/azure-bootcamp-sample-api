@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ef3d1fed-c772-459f-8090-7f3a126425c6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <_WebToolingArtifacts Remove="Properties\PublishProfiles\FolderProfile-1.0.pubxml" />
+    <_WebToolingArtifacts Remove="Properties\PublishProfiles\FolderProfile-1.1.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleApi.API.V1\SampleApi.API.V1.csproj" />
+  </ItemGroup>
+
+</Project>
