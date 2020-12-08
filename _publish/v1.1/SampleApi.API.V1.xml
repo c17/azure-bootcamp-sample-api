@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SampleApi.API.V1</name>
+    </assembly>
+    <members>
+        <member name="T:SampleApi.API.V1.Controllers.InfosController">
+            <summary>
+            Provide information about hosting
+            </summary>
+            <remarks>/!\ Do NOT use it for real production apps</remarks>
+        </member>
+        <member name="M:SampleApi.API.V1.Controllers.InfosController.Get">
+            <summary>
+            Get Host information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SampleApi.API.V1.Resources.EnvironmentInfo">
+            <summary>
+            Environment information
+            </summary>
+        </member>
+        <member name="M:SampleApi.API.V1.Resources.EnvironmentInfo.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.DateTimeOffset,SampleApi.API.V1.Resources.OperatingSystemInfo,System.String,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.MachineName">
+            <summary>
+            NetBIOS name
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.HostName">
+            <summary>
+            Host name
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.IpAddresses">
+            <summary>
+            List of IP addresses
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.CurrentDate">
+            <summary>
+            Current date and time (including offset)
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.OperatingSystem">
+            <summary>
+            Operating System
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.ClrVersion">
+            <summary>
+            CLR version
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.EnvironmentInfo.ProcessorCount">
+            <summary>
+            Number of processors
+            </summary>
+        </member>
+        <member name="T:SampleApi.API.V1.Resources.OperatingSystemInfo">
+            <summary>
+            Information about Operating System
+            </summary>
+        </member>
+        <member name="M:SampleApi.API.V1.Resources.OperatingSystemInfo.#ctor(System.String,System.String,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.OperatingSystemInfo.Identifier">
+            <summary>
+            Identifier
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.OperatingSystemInfo.Platform">
+            <summary>
+            Platform
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.OperatingSystemInfo.Version">
+            <summary>
+            Version
+            </summary>
+        </member>
+        <member name="P:SampleApi.API.V1.Resources.OperatingSystemInfo.SemanticVersion">
+            <summary>
+            Version (semantic format)
+            </summary>
+        </member>
+    </members>
+</doc>
